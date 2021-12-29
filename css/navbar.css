@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+#nb-item
+{
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color : #555;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    transition: ease-in-out;
+}
+
+#nb-item:hover
+{
+    transition: ease-in-out;
+    color : #fff;
+}
