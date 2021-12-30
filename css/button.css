@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 .wrap {
+    height : 228px;
     display: flex;
     align-items: center;
     justify-content: center;
