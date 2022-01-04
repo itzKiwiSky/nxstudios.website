@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="stylesheet" href="css/generic.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/button.css">
         <link rel="stylesheet" href="css/navbar.css">
@@ -7,32 +8,38 @@
     </head>
     <body>
         <div id="navbar>">
-            <div id="nb-item">Home</div>
-            <div id="nb-item">Projects</div>
-            <div id="nb-item">Contact</div>
-            <div id="nb-item">NXLauncher</div>
+            <div id="nb-item"><a href="index.html">Home</a></div>
+            <div id="nb-item"><a href="projects.html">Projects</a></div>
+            <div id="nb-item"><a href="contact.html">Contact</a></div>
+            <div id="nb-item"><a href="download.html">NXLauncher</a></div>
         </div>
         <div id="title">NXStudios</div>
         <div id="ab">indie game development studio</div>
         <div id="content">
-            <div id="nxadtxt">Presenting NXLauncher</div>
-            <div id="nxadtxt">The best way to play NXStudios games</div>
-            <div id="nxad">
-                <img id="nxadimg" src="assets/placeholder_512.png">
-            </div>
-            <br>
-            <div class="wrap">
-                <button class="button">Download NXLauncher</button>
+            <div id="studioad">
+                <div id="appad">
+                    <button onclick="remove();">x</button>
+                    <div id="nxadtxt">Presenting NXLauncher</div>
+                    <div id="nxadtxt">The best way to play NXStudios games</div>
+                    <div id="nxad">
+                        <img id="nxadimg" src="assets/placeholder_512.png">
+                    </div>
+                </div>
+                <script src="js/remove.js"></script>
+                <br>
+                <script src="js/activate.js"></script>
+                <div class="wrap">
+                    <div class="button" onclick="changePage(4)">Download NXLauncher</div>
+                </div>
             </div>
             <br>
             <div id="title">About Studio</div>
             <div id="abcontent">
+                <p>We are a simple brazillian indie game studio</p>
                 <div id="abparticipants">Dev-team</div>
-                <p>Our dev team is really small, the CEO <a id="link" href="https://gamejolt.com/@ChocolateLoxtl_">@ChocolateLoxtl_</a></p>
+                <p><a id="link" href="https://gamejolt.com/@ChocolateLoxtl_">@ChocolateLoxtl_</a> CEO</p>
             </div>
+            <div id="abcontribute">Want participate dev-team, check the <a href="contact.html">Contact</a> for applications</div>
         </div>
     </body>
-    <footer>
-
-    </footer>
 </html>
